@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=PT+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::selection {
+  color: white;
+  background-color: #ff5622a9;
+}
+span {
+  color: #ff5722;
+}
+.welcome-hr {
+  width: 10%;
+  opacity: 1;
+  color: #000;
+  border-top: 2px solid #000;
+  
+}
+.wel-heading {
+  margin: 60px 0 10px 0;
+  font-family: 'DM Serif Display', serif;
+  font-size: 35px;
+}
+
+.wel-heading > span{
+  font-family: 'DM Serif Display', serif;
+  font-size: 35px;
+}
+
+.wel-para {
+  margin-top: 40px;
+  color: rgb(78, 78, 78);
+  text-align: left;
+}
+.video-img {
+  width: 100%;
+  margin-top: 50px;
+  z-index: 1;
+}
+.play-btn {
+  position: relative;
+  z-index: 3;
+  margin-top: -1000px;
+  margin-left: 100px;
+}

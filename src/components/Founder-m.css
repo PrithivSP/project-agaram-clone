@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=PT+Serif&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.FounderTitle {
+    color: black;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 550;
+    font-size: 40px;
+
+}
+
+.FounderTitle::before {
+    content: 'Founder';
+    color: #FF612F;
+}
+
+.FounderTitle::after {
+    content: ' Message';
+    color: black;
+}
+
+.hr-Aft-Ft {
+    width: 10%;
+    color: #000000;
+    opacity: 1;
+    border-top: 2px solid black;
+}
+
+.f-M-Name {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.f-M {
+    color: gray;
+}
+

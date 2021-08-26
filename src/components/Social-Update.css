@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=PT+Serif&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header > h2::before {
+    content: 'Recent';
+    color: black;
+    font-family: 'DM Serif Display', serif;
+}
+
+header {
+    margin-top: 80px;
+    padding-bottom: 30px;
+    color: #FF5722;
+    font-family: 'DM Serif Display', serif;
+}
+
+header > h2::after {
+    content: 'Update';
+    color: black;
+    font-family: 'DM Serif Display', serif;
+}
+
+header > hr {
+    width: 7%;
+    color: #000000;
+    opacity: 1;
+    border-top: 2px solid black;
+}
+
+.left-content > p {
+    margin-left: 20%;
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+    color: #EEA6B7;
+}
+
+.right-content > p {
+    margin-left: 20%;
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+    color: #EEA6B7;
+}

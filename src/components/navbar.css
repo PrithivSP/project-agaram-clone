@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::selection {
+  color: white;
+  background-color: #ff5622b6;
+}
+#navbarNav {
+  font-weight: 700;
+}
+#navbarNav li {
+  margin-right: 10px;
+}
+#donate {
+  background-color: #ff5722;
+  color: white;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.nav-link:hover {
+  text-decoration: overline 2px solid #ff5722;
+  transition: width 300ms;
+}
