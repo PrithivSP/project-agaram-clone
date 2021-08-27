@@ -39,9 +39,3 @@ span {
   margin-top: 50px;
   z-index: 1;
 }
-.play-btn {
-  position: relative;
-  z-index: 3;
-  margin-top: -1000px;
-  margin-left: 100px;
-}

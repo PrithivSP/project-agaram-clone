@@ -4,22 +4,28 @@
   /*border: 4px solid #FF5823;
   border-radius: 10px;*/
 }
-.video-thumbnail {
-  background: url(...here comes that papa img);
+/* .video-thumbnail {
+  background: url(https://s1.agaram.in/img/webp-img/video-img.webp);
+} */
+
+.video-img {
+  width: 100%;
+  margin-top: 50px;
+  z-index: 1;
 }
 
 .play-btn {
   background-color: #fff;
   border-radius: 50%;
   text-align: center;
-  line-height: 100px;
+  /* line-height: 100px; */
   animation: animate 1.5s linear infinite;
   cursor: pointer;
   width: 80px;
   height: 80px;
   position: relative;
-  left: 50%;
-  top: 50%;
+  left: 90%;
+  bottom: 70%;
   transform: translate(-50%, -50%);
 }
 .play-btn i {
@@ -41,8 +47,8 @@
 iframe {
   margin-left: 80px;
 }
-.mfp-close-btn-in .mfp-close {
-}
+/* .mfp-close-btn-in .mfp-close {
+} */
 button.mfp-close {
   overflow: visible;
   cursor: pointer;
@@ -98,7 +104,7 @@ button.mfp-close {
 .social_links li {
   position: absolute;
   left: 100px;
-  top: 0;
+  bottom: 14px;
   transition: all 0.3s ease-in-out 0.3s;
   transform: translate(-100px,0) !important;
 }
