@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import "./navbar.css";
 import "./play-btn.css";
-import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
+import "../../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
+
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 class Navbar extends Component {
   state = {};
@@ -37,9 +39,9 @@ class Navbar extends Component {
                     </a>
                   </li>
                   <li className="nav-items">
-                    <a href="#" className="nav-link">
-                      Who we are
-                    </a>
+                    <li>
+                      <Link to="/history">About Us</Link>
+                    </li>
                   </li>
                   <li className="nav-items">
                     <a href="#" className="nav-link">
