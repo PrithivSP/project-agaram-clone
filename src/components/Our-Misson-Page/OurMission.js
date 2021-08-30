@@ -7,6 +7,7 @@ import Navbar from "../Home-Page/navbar";
 import OurMissionBanner from "./OMBanner";
 import ESSection from "./ESSection";
 import OMSection from "./OMSection";
+import OSSection from "./OSSection";
 
 //Footer component from Home Page
 import Footer from "../Home-Page/footer";
@@ -20,6 +21,7 @@ class OurMissionApp extends Component {
         <OurMissionBanner />
         <ESSection />
         <OMSection />
+        <OSSection />
         <Footer />
       </div>
     );
