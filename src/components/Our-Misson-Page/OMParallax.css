@@ -1,0 +1,25 @@
+.parallax {
+  background-image: url("https://res.cloudinary.com/think-makers-asylum/image/upload/e_brightness:-64/v1629895704/bg3_nowpo8.jpg");
+  background-blend-mode: darken;
+  min-height: 350px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+.parallax h1 {
+  font-family: "DM Serif Display", serif;
+}
+.parallax h1 span {
+  font-family: "Caveat", cursive;
+  font-size: 60px;
+  font-weight: 700;
+}
+#span-a {
+  color: white;
+}
