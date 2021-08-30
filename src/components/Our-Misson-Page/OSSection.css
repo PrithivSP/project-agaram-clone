@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
+.Strategy-content {
+  margin-top: 50px;
+}
+.startegy-h1 {
+  font-family: "DM Serif Display", serif;
+}
+.strategy {
+  text-align: center;
+  border: 3px solid #ff612f;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding-top: 37px;
+  width: 350px;
+  height: 250px;
+}
+.strategy1 {
+  text-align: center;
+  border: 3px solid #ff612f;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding-top: 37px;
+  width: 350px;
+  height: 200px;
+}
+.first {
+  margin-top: 20px;
+}
+.strategy:before {
+  content: "\f10d";
+  font-weight: 900;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background: #fff;
+  text-align: center;
+  font-size: 27px;
+  color: #3c414c;
+  position: absolute;
+  top: -25px;
+  left: 2%;
+}

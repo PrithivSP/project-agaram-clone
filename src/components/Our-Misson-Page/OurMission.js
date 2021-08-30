@@ -7,7 +7,7 @@ import Navbar from "../Home-Page/navbar";
 import OurMissionBanner from "./OMBanner";
 import ESSection from "./ESSection";
 import OMSection from "./OMSection";
-// import OSSection from "./OSSection";
+import OSSection from "./OSSection";
 import TheTrust from "./OMTheTrust";
 import OMParallax from "./OMParallax";
 
@@ -23,8 +23,8 @@ class OurMissionApp extends Component {
         <OurMissionBanner />
         <ESSection />
         <OMSection />
-        {/* <OSSection /> */}
         <TheTrust />
+        <OSSection />
         <OMParallax />
         <Footer />
       </div>
