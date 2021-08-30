@@ -1,0 +1,18 @@
+.ESSection {
+  margin-top: 50px;
+}
+
+.ESSection div h1 {
+  font-family: "DM Serif Display", serif;
+  color: #ff612f;
+}
+
+.ESSection div h1 span {
+  color: #343434;
+}
+
+.ESSection div p {
+  padding-top: 40px;
+  padding-left: 10px;
+  color: gray;
+}

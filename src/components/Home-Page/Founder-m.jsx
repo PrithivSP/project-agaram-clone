@@ -16,15 +16,19 @@ class FounderM extends Component {
     return (
       <div className="container-fluid row">
         <div className="col-sm-6">
-          <img src={'https://s1.agaram.in/img/webp-img/founder_surya.webp'} className="img-fluid" alt="Founder" />
+          <img
+            src={"https://s1.agaram.in/img/webp-img/founder_surya.webp"}
+            className="img-fluid"
+            alt="Founder"
+          />
         </div>
         <div className="col-sm-6">
           <h3 className="FounderTitle">{this.state.founderM_title}</h3>
           <hr className="hr-Aft-Ft" />
           <h5 className="f-M-Name py-4">{this.state.founderM_name}</h5>
-          <p className="f-M" >{this.state.founderMessage2}</p>
-          <p className="f-M" >{this.state.founderMessage3}</p>
-          <p className="f-M" >{this.state.founderMessage1}</p>
+          <p className="f-M">{this.state.founderMessage2}</p>
+          <p className="f-M">{this.state.founderMessage3}</p>
+          <p className="f-M">{this.state.founderMessage1}</p>
         </div>
       </div>
     );

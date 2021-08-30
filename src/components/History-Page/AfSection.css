@@ -1,0 +1,30 @@
+.Af-content {
+  margin-top: 50px;
+}
+
+.Af-content .row .col-sm-6:first-child h1 {
+  font-family: "DM Serif Display", serif;
+  color: #ff612f;
+  padding-bottom: 10px;
+}
+
+.Af-content .row .col-sm-6:first-child h1 span {
+  color: #343434;
+}
+
+.Af-content .row .col-sm-6:first-child p {
+  padding-top: 10px;
+  color: gray;
+}
+
+.Af-content .row .col-sm-6:last-child {
+  padding-left: 1em;
+}
+
+.Af-content .row .col-sm-6:last-child h3 {
+  padding: 1em;
+  text-align: center;
+  color: #ff612f;
+  font-family: "Caveat", cursive;
+  font-weight: 900;
+}

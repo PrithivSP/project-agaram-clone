@@ -1,0 +1,47 @@
+.OMSection {
+  margin-top: 50px;
+}
+
+.OMSection div h1 {
+  font-family: "DM Serif Display", serif;
+  color: #ff612f;
+}
+
+.OMSection div h1 span {
+  color: #343434;
+}
+
+.OMSection div div div p {
+  padding-left: 10px;
+}
+
+.OMSection div ul {
+  list-style: none;
+}
+
+.OMSection div ul li {
+  padding-left: 0;
+  margin-left: -2em;
+}
+
+.OMSection div ul li i {
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.OMSection div ul li p {
+  font-size: 14px;
+  color: gray;
+  width: 100%;
+}
+
+.OMSection div ul li p:hover {
+  color: #ff612f;
+}
+
+.OMSection div div div:last-child h3 {
+  text-align: center;
+  color: #ff612f;
+  font-family: "Caveat", cursive;
+  font-weight: 900;
+}

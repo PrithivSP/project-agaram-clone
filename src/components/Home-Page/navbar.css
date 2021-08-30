@@ -7,11 +7,17 @@
   color: white;
   background-color: #ff5622b6;
 }
+
+
 #navbarNav {
   font-weight: 700;
 }
 #navbarNav li {
   margin-right: 10px;
+}
+
+#navbarNav li:last-child {
+  margin-right: 0px;
 }
 #donate {
   background-color: #ff5722;
@@ -23,3 +29,39 @@
   text-decoration: overline 2px solid #ff5722;
   transition: width 300ms;
 }
+
+/*------- Nav sidebar ------*/
+
+#off-teams a {
+  position: fixed; /* Position them relative to the browser window */
+  right: -100px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 140px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  z-index: 1000;
+}
+
+#off-teams a:hover {
+  right: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+
+#home {
+  top: 170px;
+  background-color: #FF5722;
+}
+#about {
+  top: 225px;
+  background-color: #FF5722;
+}
+
+#event {
+  top: 280px;
+  background-color: #FF5722;
+}
+

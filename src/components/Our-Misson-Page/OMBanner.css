@@ -1,0 +1,40 @@
+.OurMissionBanner {
+  margin-top: -20em;
+  padding-top: 10em;
+  background-image: url(https://res.cloudinary.com/think-makers-asylum/image/upload/e_brightness:-78/v1630223288/12_uvquzh.jpg);
+}
+
+.OurMissionBanner > .container {
+  padding-top: 19em;
+  padding-bottom: 2em;
+}
+
+.OurMissionBanner h1 {
+  color: white;
+  padding-left: 2em;
+  font-family: "DM Serif Display", serif;
+  border-left: 3px solid #ff612f;
+}
+
+.OurMissionBanner .col-sm-6:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.breadcrumb {
+  right: 0;
+}
+
+.OurMissionBanner .breadcrumb-item a {
+  color: white;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.OurMissionBanner .breadcrumb-item {
+  color: #ff612f;
+  font-weight: 200;
+  font-size: 20px;
+}

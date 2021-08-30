@@ -34,19 +34,21 @@ class Navbar extends Component {
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li className="nav-items active">
-                    <a href="#" className="nav-link" aria-current="page">
+                    <Link className="nav-link" to="/">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-items">
                     <li>
-                      <Link to="/history">About Us</Link>
+                      <Link className="nav-link" to="/history">
+                        Who We Are(Our Journey)
+                      </Link>
                     </li>
                   </li>
                   <li className="nav-items">
-                    <a href="#" className="nav-link">
-                      What we do
-                    </a>
+                    <Link className="nav-link" to="/OurMission">
+                      Who We Are(Our Mission)
+                    </Link>
                   </li>
                   <li className="nav-items">
                     <a href="#" className="nav-link">
@@ -85,6 +87,21 @@ class Navbar extends Component {
               </div>
             </div>
           </nav>
+
+          <div id="off-teams" class="off-teams-class">
+            <a href="#" id="home" class="fas fa-home">
+              {" "}
+              Home
+            </a>
+            <a href="#" id="about" class="fas fa-theater-masks">
+              {" "}
+              About
+            </a>
+            <a href="#" id="event" class="far fa-calendar-alt">
+              {" "}
+              Events
+            </a>
+          </div>
 
           <div class="container-fluid">
             {/* Share btn  */}

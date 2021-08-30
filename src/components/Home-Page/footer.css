@@ -9,10 +9,13 @@
 .content {
   margin-top: 50px;
   background: #2a221c;
+  bottom: 0;
 }
 
 .contentBox {
   background: url("https://agaram.in/img/rz/map-pattern.png");
+  background-repeat: no-repeat;
+  background-position: center center;
   display: flex;
   justify-content: center;
   align-items: center;
