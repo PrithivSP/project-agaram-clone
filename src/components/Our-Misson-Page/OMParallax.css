@@ -1,4 +1,4 @@
-.parallax {
+.OMParallax {
   background-image: url("https://res.cloudinary.com/think-makers-asylum/image/upload/e_brightness:-64/v1629895704/bg3_nowpo8.jpg");
   background-blend-mode: darken;
   min-height: 350px;
@@ -12,10 +12,23 @@
   align-items: center;
   color: rgb(255, 255, 255);
 }
-.parallax h1 {
+.OMParallax h1 {
   font-family: "DM Serif Display", serif;
 }
-.parallax h1 span {
+
+.OMParallax h1 {
+  font-family: "DM Serif Display", serif;
+}
+
+.OMParallax h1 .OMParallax-help {
+  font-family: "DM Serif Display", serif;
+  font-size: 37px;
+  font-weight: 400;
+  color: white;
+  border-bottom: 3px solid #ff5722;
+}
+
+.OMParallax h1 span {
   font-family: "Caveat", cursive;
   font-size: 60px;
   font-weight: 700;
