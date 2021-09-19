@@ -41,13 +41,13 @@ class Navbar extends Component {
                   <li className="nav-items">
                     <li>
                       <Link className="nav-link" to="/history">
-                        Who We Are(Our Journey)
+                        Our Journey
                       </Link>
                     </li>
                   </li>
                   <li className="nav-items">
                     <Link className="nav-link" to="/OurMission">
-                      Who We Are(Our Mission)
+                      Our Mission
                     </Link>
                   </li>
                   <li className="nav-items">
